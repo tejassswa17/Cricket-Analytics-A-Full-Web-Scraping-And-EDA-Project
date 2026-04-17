@@ -1,31 +1,28 @@
-📊 Cricket Analytics – Web Scraping & EDA Project
+# Cricket Analytics – Web Scraping and EDA Project
 
-This project collects data on Indian cricket players using web scraping, cleans the data, and performs Exploratory Data Analysis (EDA) to find useful patterns and insights.
+## Overview
 
-📌 Project Overview
+This project focuses on collecting and analyzing data of Indian cricket players using web scraping and exploratory data analysis. The goal is to clean the data, combine multiple sources, and extract meaningful insights about player performance.
 
-Collected player profile links separately from the BCCI Men’s Stats page and the BCCI Women’s Stats page
+## Project Description
 
-Scraped all player details such as role, batting style, bowling style, matches, runs, strike rates, etc.
+Player profile links were collected separately from the BCCI Men’s Stats page and the BCCI Women’s Stats page. Using web scraping techniques, detailed information for each player was extracted, including role, batting style, bowling style, matches, runs, and strike rates.
 
-Combined (merged) both men’s and women’s datasets into one unified dataset
+The datasets for men and women players were merged into a single dataset. Additional features such as batting averages, bowling metrics, career span, strike rate groups, and role categories were created to improve analysis.
 
-Added engineered columns (batting averages, bowling metrics, career span, strike-rate groups, role categories) to observe better insights
+The final dataset was cleaned and prepared for analysis. Exploratory data analysis was performed using visualizations to understand patterns across roles, gender, and performance.
 
-Cleaned and prepared the merged dataset
+## Key Insights
 
-Performed EDA with visualizations on roles, gender representation, averages, and performance trends
-
-📈 Key Insights
-
-Player representation varies across gender and role
-
+Player representation varies across different roles and genders
 Men and women show different statistical distributions
+Engineered features provide deeper insights into performance
+Career span and match count reveal useful trends across categories
 
-Engineered features helped reveal deeper insights into performance
+## Technologies Used
 
-Career spans and match counts highlight useful trends across categories
-
-🛠️ Tech Used
-
-Python, Jupyter Notebook, BeautifulSoup / Requests, Pandas, NumPy, Matplotlib / Seaborn
+Python
+Jupyter Notebook
+BeautifulSoup and Requests
+Pandas and NumPy
+Matplotlib and Seaborn
